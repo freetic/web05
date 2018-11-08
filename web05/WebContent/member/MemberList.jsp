@@ -19,6 +19,8 @@
 		${member.createdDate }, 
 		<a href='delete?no=${member.no }'>[삭제]</a><br>
 	</c:forEach>
+	<br><br>
+	연습용
 	<jsp:include page="/Tail.jsp"/>
 </body>
 </html>
